@@ -6,7 +6,6 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import api from '@/api/request'
-import { sha256 } from '@/utils/crypto'
 import { mockUser, mockRadarData } from '@/mock/user'
 import { USE_MOCK } from '@/api/config'
 
