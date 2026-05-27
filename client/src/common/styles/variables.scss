@@ -1,0 +1,67 @@
+// common/styles/variables.scss
+// 全局样式变量 — 成员C维护，与成员A协商确认
+
+// ============ 主题色 ============
+$primary-color: #409EFF;
+$primary-light: #66B1FF;
+$primary-dark: #3A8EE6;
+$primary-bg: rgba(64, 158, 255, 0.08);
+
+// ============ 功能色 ============
+$success-color: #67C23A;
+$warning-color: #E6A23C;
+$danger-color: #F56C6C;
+$info-color: #909399;
+
+// ============ 文字色 ============
+$text-primary: #303133;
+$text-regular: #606266;
+$text-secondary: #909399;
+$text-placeholder: #C0C4CC;
+
+// ============ 背景色 ============
+$bg-page: #F5F7FA;
+$bg-card: #FFFFFF;
+$bg-grey: #F2F6FC;
+
+// ============ 边框色 ============
+$border-light: #E4E7ED;
+$border-base: #DCDFE6;
+$border-dark: #D4D7DE;
+
+// ============ 渐变色 ============
+$gradient-primary: linear-gradient(135deg, #409EFF 0%, #66B1FF 100%);
+$gradient-warm: linear-gradient(135deg, #F56C6C 0%, #E6A23C 100%);
+$gradient-cool: linear-gradient(135deg, #409EFF 0%, #67C23A 100%);
+
+// ============ 间距 ============
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+$spacing-xxl: 64rpx;
+
+// ============ 圆角 ============
+$radius-sm: 8rpx;
+$radius-md: 16rpx;
+$radius-lg: 24rpx;
+$radius-round: 999rpx;
+
+// ============ 阴影 ============
+$shadow-sm: 0 2rpx 12rpx rgba(0, 0, 0, 0.04);
+$shadow-md: 0 4rpx 24rpx rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 8rpx 32rpx rgba(0, 0, 0, 0.12);
+
+// ============ 字号 ============
+$font-xs: 20rpx;
+$font-sm: 24rpx;
+$font-md: 28rpx;
+$font-lg: 32rpx;
+$font-xl: 36rpx;
+$font-xxl: 44rpx;
+
+// ============ 字重 ============
+$weight-normal: 400;
+$weight-medium: 500;
+$weight-bold: 700;

@@ -1,0 +1,100 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "OfferGo",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/resume/index",
+      "style": {
+        "navigationBarTitleText": "简历管理"
+      }
+    },
+    {
+      "path": "pages/interview/index",
+      "style": {
+        "navigationBarTitleText": "AI 模拟面试"
+      }
+    },
+    {
+      "path": "pages/interview/chat",
+      "style": {
+        "navigationBarTitleText": "面试进行中"
+      }
+    },
+    {
+      "path": "pages/kanban/index",
+      "style": {
+        "navigationBarTitleText": "投递管理"
+      }
+    },
+    {
+      "path": "pages/question/index",
+      "style": {
+        "navigationBarTitleText": "备考中心"
+      }
+    },
+    {
+      "path": "pages/question/detail",
+      "style": {
+        "navigationBarTitleText": "复盘报告"
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#409EFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tab/home.png",
+        "selectedIconPath": "static/images/tab/home-active.png"
+      },
+      {
+        "pagePath": "pages/kanban/index",
+        "text": "投递",
+        "iconPath": "static/images/tab/kanban.png",
+        "selectedIconPath": "static/images/tab/kanban-active.png"
+      },
+      {
+        "pagePath": "pages/question/index",
+        "text": "备考",
+        "iconPath": "static/images/tab/question.png",
+        "selectedIconPath": "static/images/tab/question-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/images/tab/profile.png",
+        "selectedIconPath": "static/images/tab/profile-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "OfferGo",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F7FA"
+  }
+}

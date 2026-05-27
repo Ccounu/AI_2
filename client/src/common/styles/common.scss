@@ -1,0 +1,71 @@
+// common/styles/common.scss
+// 通用样式类 — 成员C维护
+@import './variables.scss';
+
+// Flex 布局快捷类
+.flex { display: flex; }
+.flex-col { display: flex; flex-direction: column; }
+.flex-center { display: flex; align-items: center; justify-content: center; }
+.flex-between { display: flex; align-items: center; justify-content: space-between; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-1 { flex: 1; }
+
+// 文字截断
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipsis-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+// 安全区域
+.safe-bottom {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+// 卡片通用样式
+.card {
+  background: $bg-card;
+  border-radius: $radius-md;
+  padding: $spacing-lg;
+  box-shadow: $shadow-sm;
+  margin: $spacing-md $spacing-lg;
+}
+
+// 通用按钮样式
+.btn-primary {
+  background: $gradient-primary;
+  color: #FFFFFF;
+  border-radius: $radius-round;
+  padding: 20rpx 64rpx;
+  font-size: $font-md;
+  font-weight: $weight-medium;
+  text-align: center;
+  border: none;
+  &::after { border: none; }
+  &:active { opacity: 0.85; transform: scale(0.98); }
+}
+
+.btn-outline {
+  background: transparent;
+  color: $primary-color;
+  border: 2rpx solid $primary-color;
+  border-radius: $radius-round;
+  padding: 18rpx 62rpx;
+  font-size: $font-md;
+  text-align: center;
+  &::after { border: none; }
+}
+
+// 分割线
+.divider {
+  height: 1rpx;
+  background: $border-light;
+  margin: $spacing-md 0;
+}

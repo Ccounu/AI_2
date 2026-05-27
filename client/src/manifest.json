@@ -1,0 +1,30 @@
+{
+    "name" : "OfferGo",
+    "appid" : "__UNI__OFFERGO",
+    "description" : "智能求职助手",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        }
+    },
+    "mp-weixin" : {
+        "appid" : "wx7cdd84016e0400c3",
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : true,
+            "postcss" : true,
+            "minified" : true
+        },
+        "usingComponents" : true
+    },
+    "vueVersion" : "3"
+}
